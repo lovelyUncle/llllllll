@@ -1,0 +1,77 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.7.4",
+	"appid": "wx49bb70bdd899f7e5",
+	"projectname": "%E6%A0%91%E8%A2%8B%E7%86%8A",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "我的页面",
+					"pathName": "pages/mine/recharge/recharge",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "借款人详情",
+					"pathName": "pages/mine/Mylous/Mylous",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "登陆",
+					"pathName": "pages/login/loginPass/loginPass",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "银行卡管理",
+					"pathName": "pages/mine/setup/bankCard/bankCard",
+					"query": ""
+				},
+				{
+					"id": 4,
+					"name": "mine",
+					"pathName": "pages/mine/records/records",
+					"query": ""
+				},
+				{
+					"id": 5,
+					"name": "发布出借",
+					"pathName": "pages/mine/myRelease/myRelease",
+					"query": ""
+				},
+				{
+					"id": 6,
+					"name": "引导框",
+					"pathName": "pages/new/new",
+					"query": ""
+				},
+				{
+					"id": 7,
+					"name": "设置",
+					"pathName": "pages/new/new",
+					"query": ""
+				}
+			]
+		}
+	}
+}

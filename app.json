@@ -1,0 +1,80 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/loanerInfo/loanerInfo",
+    "pages/index/lenderInfo/lenderInfo",
+    "pages/index/presentation/presentation",
+    "pages/index/moreScreen/moreScreen",
+    "pages/index/bannerUrl/bannerUrl",
+    "pages/logs/logs",
+    "pages/card/card",
+    "pages/mine/mine",
+    "pages/login/login",
+    "pages/login/loginPass/loginPass",
+    "pages/login/loginPhone/loginPhone",
+    "pages/login/forgetPass/forgetPass",
+    "pages/LchoiceId/LchoiceId",
+    "pages/mine/identity/identity",
+    "pages/mine/publishLend/publishLend",
+    "pages/mine/Mylous/Mylous",
+    "pages/mine/PersonInfo/PersonInfo",
+    "pages/mine/publishLoan/publishLoan",
+    "pages/mine/setup/setup",
+    "pages/mine/setup/setupHeadPortrait/setupHeadPortrait",
+    "pages/mine/setup/help/help",
+    "pages/mine/setup/bankCard/bankCard",
+    "pages/mine/setup/transactionPass/transactionPass",
+    "pages/mine/setup/forgetjyPass/forgetjyPass",
+    "pages/mine/recharge/recharge",
+    "pages/mine/LIouDetails/LIouDetails",
+    "pages/mine/myRelease/myRelease",
+    "pages/mine/myCollection/myCollection",
+    "pages/mine/collectionDetails/collectionDetails",
+    "pages/mine/withdrawals/withdrawals",
+    "pages/mine/CashCenter/CashCenter",
+    "pages/mine/records/records",
+    "pages/new/new",
+    "pages/new/nextNew/nextNew",
+    "pages/component/toast/toast",
+    "pages/component/guideBox/guideBox",
+    "pages/component/jumApp/jumApp",
+    "pages/component/register/register",
+    "pages/mine/releaseLoanSuccess/releaseLoanSuccess",
+    "pages/mine/LoanSuccess/LoanSuccess",
+    "pages/mine/borrowerIous/borrowerIous"
+    
+  ],
+  "window": {
+    "navigationBarTitleText": "树袋熊管家",
+    "navigationBarBackgroundColor": "#EC5E58",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#F6F6F6",
+    "enablePullDownRefresh": "true",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#b3b3b3",
+    "borderStyle": "black",
+    "selectedColor": "#ec5e58",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/img/cjr@2x.png",
+        "selectedIconPath": "images/img/cjr_2@2x.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/img/meone.png",
+        "selectedIconPath": "images/img/metwo.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
